@@ -1,0 +1,51 @@
+.container {
+  margin-top: 20px;
+  background-color: lightseagreen;
+  height: 100%;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+
+.text {
+  padding-left: 38px;
+  text-align: justify;
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+}
+
+.material-icons {
+  color: white;
+  font-size: 45px !important;
+}
+
+.h4 {
+  color: #fff !important;
+}
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+  .h4 {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-link:hover {
+    color: yellow;
+  }
+
+  @media screen and (max-width: 500px) {
+    .col-s1 {
+      background: green;
+    }
+  }
+}
